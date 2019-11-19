@@ -1,2 +1,27 @@
 1、制作轮播图可以实用Swiper.js来快速制作
 2、在线预览pdf可以使用pdf.js来快速实现并实现一些基本操作及功能
+
+
+
+Linux基本命令：
+ssh:跳转
+sudo:升级权限，需要密码认证（smile123）
+cd:进入目录
+ls:查看当前目录下的文件
+vim:进入文件
+进入文件后按“i”开始输入;
+:q：强制退出
+:w!：强制保存
+:wq!：退出并保存
+cp aaa bbb：将aaa备份一个文件为bbb
+cat：只读查看
+rm -f aaa：删除文件aaa
+ll：查看文件创建时间
+rz or rz -be：上传文件
+yum -y install lrzsz：安装rz
+sudo supervisorctl：项目重启上线
+supervisorctl restart program_name：重启某个进程
+scp ./majiang_yy_jp/index_yyreach_jp.html zhangyilong@47.245.26.208:/home/zhangyilong/:从本地服务器上传到官网服务器
+sudo cp index_yyreach_jp.html /var/www/majiang_jp/templates/jp:将我的根目录下的该文件复制到那个路径下去
+
+跳到其他服务器：ssh zhangyilong@000.000.000.000
